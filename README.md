@@ -1,1 +1,19 @@
-Udacity Project Design Provision and Monitor AWS Infrastructure at Scal
+How I reduced the estimate to $6,500
+Below is the list of changes and reasons for the solution:
+Change: Scaled down to lower configuration EC2 instance type(t2.xlarge -> t2.large).
+Reason: Changing the EC2 instance setup can have a minor impact on performance, although instances can be auto scaled as needed.
+Change: Scaled down RDS instance from db.m5.4xlarge to db.m5.2xlarge.
+Reason: Scaling down will have the database performance issue but it can be bearable according to the application requirements.
+Changing the instance type will have a modest influence on database speed. However, if more resources are required to improve performance, we can add them at any moment.
+
+How I come up with an estimated cost of $20,000
+Below is the list of changes and reasons for the solution:
+Change: More EC2 instances and a load balancer have been added to the Oregon region.
+Reason: This ensures that the application is constantly accessible. Even if the Northern Virginia region is inaccessible, the application will be available in the Oregon region.
+Change: RDS database instance added to Oregon region.
+Reason: This minimises latency for customers who visit applications in other parts of the world. Read replica RDS database instance because data from the Oregon area can be retrieved.
+Change: RDS database instances have been scaled up.
+Reason: This will boost database speed and have a stronger impact in circumstances of significant application platform traffic.
+Change: NAT Gateway has been added to the Oregon region.
+Reason: In the Oregon region, a (NAT) gateway was added to allow EC2 instances to establish outbound connections to internet resources while prohibiting inbound connections to the EC2 instance.
+
