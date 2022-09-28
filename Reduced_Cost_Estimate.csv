@@ -4,7 +4,6 @@ My Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,3
 My Estimate,US East (N. Virginia),,Amazon EC2,0,449.75,5397.00,USD,"Operating system (Linux), Quantity (10), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (30 GB), Instance type (t2.large)"
 My Estimate,US East (N. Virginia),,Amazon RDS for PostgreSQL,0,3021.12,36253.44,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (2 TB per month), Nodes (2), Instance Type (db.m5.2xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (OnDemand)"
 My Estimate,US East (N. Virginia),,S3 Standard,0,235.52,2826.24,USD,S3 Standard storage (10 TB per month)
-My Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,
 My Estimate,US East (N. Virginia),,AWS Data Transfer,0,1228.8,14745.60,USD,"DT Inbound: Internet (10 TB per month), DT Inbound: All other regions (10 TB per month), DT Outbound: Internet (10 TB per month), DT Outbound: US East (Ohio) (10 TB per month), DT Intra-Region: (10 TB per month), Data transfer cost (1228.8)"
 My Estimate,US East (N. Virginia),,Data Transfer,0,1228.8,14745.60,USD,"DT Inbound: Internet (10 TB per month), DT Inbound: All other regions (10 TB per month), DT Outbound: Internet (10 TB per month), DT Outbound: US East (Ohio) (10 TB per month), DT Intra-Region: (10 TB per month), Data transfer cost (1228.8)"
 
